@@ -7,21 +7,21 @@
 
 
 x = 'Hello'
-type(x)
-        :string
+print(type(x))
+        : <class 'str'>
 
 x = 5
 type(x)
-        :int
+        : <class 'int'>
 
 x = 3.5
 type(x)
-        :float
+        : <class 'float'>
 
 x = True
 type(x)
-        :bool
+        : <class 'bool'>
 
 x = 3+5j
 type(x)
-        :complex
+        : <class 'complex'>
