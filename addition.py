@@ -21,3 +21,5 @@ Output:
         b = 20
 
         50
+
+# we have to take any operator use and solve the programmes.
