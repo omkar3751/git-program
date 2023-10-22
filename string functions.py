@@ -4,6 +4,7 @@
 3.str.count()       # occurence of word in the string
 4.str.find()        # find the index particular element in string
 5.str.replace()     # to replace the word in the string
+6.str.title()       # first letter in capital 
 
 str = "Hello World"
 1.
@@ -24,5 +25,9 @@ Output:
         6
 5.
   str.replace("World","India")     # To pass the curret word & , replace word
+Output:
+        'Hello India'
+6.
+  str.title()
 Output:
         'Hello India'
