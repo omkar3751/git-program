@@ -7,6 +7,7 @@
 5.list.remove()          # remove the particular value
 6.list.count()           # number of time thats occurence 
 7.list.index()           # find the index number
+8.list.reverse()              # reverse the original list
 
 lst=['python','html','css']                                
 
@@ -38,3 +39,7 @@ Output:
 lst.index('css')                                           # pass the argument
 Output:
         2
+
+lst.reverse()                                               # defaultly reversed original list
+Output:
+        ['python','php','javascript','css']
