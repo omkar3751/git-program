@@ -3,6 +3,7 @@
 1.set.add()                      # add the element i last index
 2.set.update()                   # To add the multiple values
 3.set.remove()                   # To remove 
+4.set.pop()                      # one time show & delete
 
 
 set1= {1,(2,3,4),5}
@@ -23,4 +24,11 @@ set1.remove('science')
 
 print(set1)
 Output:
-        {92,3,4),1,2,True,2+3j}
+        {2,3,4),1,2,True,2+3j}
+
+set1.pop(True)
+Output:
+        True
+print(set1)
+Output:
+        {(2,3,4),1,2,2+3j}
