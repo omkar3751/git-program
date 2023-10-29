@@ -2,7 +2,7 @@
 
 1.for loop
 
-for i in range(5):
+for i in range(5):        # range function
   print(i)
 Output:
         0
@@ -12,9 +12,9 @@ Output:
 
 2. while loop
 
-while i <= 5:
+while i <= 5:              # condition
   print(i)
-  i = i + 1
+  i = i + 1                # increment the i 
 Output:
         1
         2
